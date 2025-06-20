@@ -35,8 +35,8 @@ To avoid hardcoding credentials in the script, use a secure MySQL client config 
 
 ```ini
 [client]
-user=root
-password=
+user=yousqlusername
+password=yousqlpassword[leaveblank if password is empty]
 ```
 
 > Leave the password empty if your root MySQL user has no password.
@@ -140,7 +140,6 @@ All script activity is logged to:
 ```
 2025-06-18 14:10:01 - Disk usage at 96% on /mnt/blockstorage. Running RESET MASTER...
 2025-06-18 14:10:02 - RESET MASTER executed successfully.
-
 2025-06-18 14:20:01 - Disk usage at 91% on /mnt/blockstorage. No action taken.
 ```
 
