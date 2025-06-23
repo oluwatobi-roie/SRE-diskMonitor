@@ -194,4 +194,4 @@ echo "Disk usage reached $USAGE%. RESET MASTER executed." | mail -s "MySQL Reset
 
 ## 📬 Contact
 
-For setup help, reach out to your system administrator or the maintainer of this repository.
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/akomolafetech/)
